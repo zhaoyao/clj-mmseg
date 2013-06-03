@@ -18,6 +18,16 @@ Clojure wrapper for zhuomingliang/mmseg4j
 
 ```
 
+## Development
+
+```bash
+
+# pull mmseg4j as a local dependency
+make all
+lein deps
+
+```
+
 ## Todo
 - [ ] doc string for tokenize
 - [ ] unit test

@@ -19,8 +19,8 @@ Clojure wrapper for zhuomingliang/mmseg4j
 ```
 
 ## Todo
-[ ] doc string for tokenize
-[ ] unit test
+- [ ] doc string for tokenize
+- [ ] unit test
 
 ## License
 

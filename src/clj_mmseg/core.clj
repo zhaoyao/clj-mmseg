@@ -17,8 +17,8 @@
   [^java.io.Reader input algo]
   (let [dict (Dictionary/getInstance)
         seg (condp = algo
-              :simple (do (prn algo) (SimpleSeg. dict))
-              :complex (do (prn algo) (ComplexSeg. dict))
+              :simple (SimpleSeg. dict)
+              :complex (ComplexSeg. dict)
               :max-word (MaxWordSeg. dict))
         mmseg (MMSeg. input seg)]
     (lazy-tokenize mmseg)))

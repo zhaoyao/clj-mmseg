@@ -6,7 +6,7 @@ Clojure wrapper for zhuomingliang/mmseg4j
 
 ```clojure
 
-(require 'clj-mmseg.core)
+(require '[clj-mmseg.core :as mmseg])
 
 (mmseg/tokenize (java.io.StringReader. "首先来理解一下chunk，它是MMSeg分词算法中一个关键的概念。") :complex)
 ; => ({:string "首先", :type "word"} {:string "来", :type "word"} {:string "理解", :type "word"}
@@ -17,6 +17,10 @@ Clojure wrapper for zhuomingliang/mmseg4j
 ;     {:string "关键", :type "word"} {:string "的", :type "word"} {:string "概念", :type "word"})
 
 ```
+
+## Todo
+[ ] doc string for tokenize
+[ ] unit test
 
 ## License
 
